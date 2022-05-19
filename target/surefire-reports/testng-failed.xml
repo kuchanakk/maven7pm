@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]" verbose="0">
+  <test thread-count="5" name="projectmay(failed)" verbose="0">
+    <classes>
+      <class name="com.maven.pack1.PopItemstest">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="spk"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.maven.pack1.PopItemstest -->
+    </classes>
+  </test> <!-- projectmay(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
